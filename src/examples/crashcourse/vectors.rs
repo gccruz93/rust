@@ -44,7 +44,7 @@ pub fn main() {
   for x in numbers.iter_mut() {
     *x *= 2;
   }
-  println!("Numbers Vec: {:?}", numbers);
+  println!("Numbers Vec: {:#?}", numbers);
 
   println!("-----");
 

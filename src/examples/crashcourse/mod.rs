@@ -11,8 +11,9 @@
 // mod pointer;
 // mod structs;
 // mod enums;
-mod cli;
+// mod cli;
+mod tests;
 
 pub fn main() {
-  cli::main();
+  tests::main();
 }
